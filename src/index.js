@@ -7,4 +7,4 @@ const chatClient = ChatClient.connect(
   "https://serene-basin-84996.herokuapp.com/"
 );
 
-render(<App />, document.getElementById("root"));
+render(<App client={chatClient} />, document.getElementById("root"));
