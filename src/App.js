@@ -1,4 +1,5 @@
 import React, { Component, Fragment } from "react";
+import { Greeter } from "./Greeter";
 
 import "./styles.css";
 
@@ -8,7 +9,7 @@ class App extends Component {
   render() {
     return (
       <div className="app">
-        <h1>Your {this.state.rank}!</h1>
+        <Greeter name="Nancy" />
       </div>
     );
   }
